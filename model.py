@@ -19,9 +19,9 @@ def get_model(types):
     model = models.Sequential()
     model.add(LSTM(64, return_sequences=True, activation='relu'))
     model.add(Dropout(0.25))
-    model.add(LSTM(32, return_sequences=False, activation='relu'))
+    model.add(LSTM(16, return_sequences=False, activation='relu'))
     model.add(Dropout(0.25))
-    if types=='ERA':
+    if types=='era':
         model.add(Dense(1, activation='relu'))
     else:
         model.add(Dense(1, activation='sigmoid'))# ERA는 relu, AVG는 sigmoid.
