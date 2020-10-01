@@ -42,10 +42,10 @@
 
 ## 실행 방법
 
-0. (preprocess.py) 를 실행하여 raw_data를 나중에 사용할 Input으로 가공해준다. (여러 변수 추가 및 2020-07-21~ 2020-09-27의 크롤링 데이터까지 더해준다. - 이미 해놨습니다. )
-1. train.py를 돌려준다.(1차 rnn model과 2차 lightgbm model이 다 생성되고, MinMax 및 정규화 모델까지 저장됩니다. )
-2. predict.py를 돌려준다. (result폴더에 prediction.csv가 생성됩니다! )
-3. 연속 3번을 돌리고 Average 값을 내줬습니다.
+0. (preprocess.py) 를 실행하여 raw_data를 나중에 사용할 Input으로 가공해줍니다. (해당 py의 실행으로 feature 추가 및 2020-07-21~ 2020-09-27의 크롤링 데이터까지 더해줍니다. - 이미 해놨습니다. )
+1. train.py를 실행합니다.(1차 rnn model과 2차 lightgbm model이 다 생성되고, MinMax 및 정규화 모델까지 저장됩니다. )
+2. predict.py를 실행합니다. (result폴더에 prediction.csv가 생성됩니다! )
+3. 예측을 5회 반복하고 얻은 값들의 mean을 예측값으로 활용했습니다.
 
 
 
