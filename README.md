@@ -1,10 +1,12 @@
 # Big Contest 퓨쳐스리그 (Team 10027) 
+# Big Contest 2020 Future's League (Team 10027)
 
 
 
 ## 분석 환경 및 사용 Packages
+## Analysis Environment and Packages Used
 
-### 1. 분석 환경
+### 1. 분석 환경 (Analysis Environment)
 
 - OS: Windows  & MacOS & Linux-Ubuntu / RAM: 16GB
 
@@ -14,7 +16,7 @@
 
   
 
-### 2. 사용 주요 packages
+### 2. 사용 주요 packages (Used Packages)
 
 - beautifulsoup4==4.9.1
 
@@ -40,7 +42,7 @@
 
 
 
-## 실행 방법
+## 실행 방법 (Process Instructions)
 
 0. (preprocess.py) 를 실행하여 raw_data를 나중에 사용할 Input으로 가공해줍니다. (해당 py의 실행으로 feature 추가 및 2020-07-21~ 2020-09-27의 크롤링 데이터까지 더해줍니다. - 이미 해놨습니다. )
 1. train.py를 실행합니다.(1차 rnn model과 2차 lightgbm model이 다 생성되고, MinMax 및 정규화 모델까지 저장됩니다. )
