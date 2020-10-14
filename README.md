@@ -1,10 +1,8 @@
-# Big Contest 퓨쳐스리그 (Team 10027) 
-# Big Contest 2020 Future's League (Team 10027)
+# Big Contest 퓨쳐스리그 (Future's Leage) -Team 10027- 
 
 
 
-## 분석 환경 및 사용 Packages
-## Analysis Environment and Packages Used
+## 분석 환경 및 사용 Packages (Analysis Environment and Packages Used)
 
 ### 1. 분석 환경 (Analysis Environment)
 
@@ -53,10 +51,10 @@
 
 ** 가상환경설치 한 뒤, requirements.txt에 있는 pip들을 설치해야 합니다. (pip install -r requirements.txt를 치시면 됩니다!)
 
-  #### ※ 혹시라도 가상환경(Virtual environment) 생성을 모른다면?
+  #### ※ 혹시라도 가상환경(Virtual Environment) 생성을 모른다면? (How to set up a Virtual Environment)
 
   ```bash
- #(리눅스 기준)
+ #(리눅스 기준) (For Linux)
  # 1 코드를 실행 할 디렉토리에 들어가서 venv라는 이름의 가상환경을 생성한다.
   python3 -m venv venv
 
