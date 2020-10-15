@@ -49,10 +49,10 @@
 - Run train.py. (It will form the rnn model for the 1st phase and the ligthgbm model for the 2nd phase. It will save the MinMax and scaling model as well.)
 
 2. predict.py를 실행합니다. (result폴더에 prediction.csv가 생성됩니다!)
-- Run predict.py (It will create prediction.csv in the result folder)
+   Run predict.py (It will create prediction.csv in the result folder)
 
 3. 예측을 5회 반복하고 얻은 값들의 mean을 예측값으로 활용했습니다.
-- The final predcition values are the mean of 5 different prediction runs.
+   The final predcition values are the mean of 5 different prediction runs.
 
 
 
@@ -64,6 +64,7 @@
   ```bash
  #(리눅스 기준) (For Linux)
  # 1 코드를 실행 할 디렉토리에 들어가서 venv라는 이름의 가상환경을 생성한다.
+   
   python3 -m venv venv
 
   # 2 가상환경을 실행시켜준다.
