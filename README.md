@@ -49,10 +49,10 @@
 - Run train.py. (It will form the rnn model for the 1st phase and the ligthgbm model for the 2nd phase. It will save the MinMax and scaling model as well.)
 
 2. predict.py를 실행합니다. (result폴더에 prediction.csv가 생성됩니다!)
-   Run predict.py (It will create prediction.csv in the result folder)
+- Run predict.py (It will create prediction.csv in the result folder)
 
 3. 예측을 5회 반복하고 얻은 값들의 mean을 예측값으로 활용했습니다.
-   The final predcition values are the mean of 5 different prediction runs.
+- The final predcition values are the mean of 5 different prediction runs.
 
 
 
@@ -64,16 +64,19 @@
   ```bash
  #(리눅스 기준) (For Linux)
  # 1 코드를 실행 할 디렉토리에 들어가서 venv라는 이름의 가상환경을 생성한다.
-   
+   - Go to the directory where you will run the codes and make a Virtual Enviroment withe the name venv.
   python3 -m venv venv
 
-  # 2 가상환경을 실행시켜준다.
-  (디렉토리에 들어갔다는 가정) source bin/activate
+  # 2 가상환경을 실행시켜준다. (디렉토리에 들어갔다는 가정)
+   - Run the Virtual Environment 
+  source bin/activate
 
   # 3 가상환경 실행 후, pip를 설치해준다.
+   - After running the Virtual Environment, install the pips.
   pip3 -r install requirements.txt
 
   # ** 가상환경을 끄는 방법도 있다.
+   - How to deactivate the Virtual Environment
   source deactivate
 
   ```
@@ -82,16 +85,16 @@
 
 ** 7월 19일 이후에 트레이드 한 선수 혹은 이후에 팀에 입단 한 외국인용병에 대한 인적사항은 따로 기입해줬습니다. 
 
-2020   99999   팔카   SS
-2020   99998   러셀   WO
-2020   99997   화이트   SK
+2020   99999  팔카   SS
+2020   99998  러셀   WO
+2020   99997  화이트   SK
 
 2020   63950  장현식   HT
 2020   64984  김태진   HT
-2020   65643 문경찬   NC
-2020   65639   박정수   NC
+2020   65643  문경찬   NC
+2020   65639  박정수   NC
 2020   63634  이홍구   KT
-2020   60558   오태곤   SK
+2020   60558  오태곤   SK
 
 
 
