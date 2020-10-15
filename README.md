@@ -42,14 +42,22 @@
 
 ## 실행 방법 (Process Instructions)
 
-0. (preprocess.py) 를 실행하여 raw_data를 나중에 사용할 Input으로 가공해줍니다. (해당 py의 실행으로 feature 추가 및 2020-07-21~ 2020-09-27의 크롤링 데이터까지 더해줍니다. - 이미 해놨습니다. )
-1. train.py를 실행합니다.(1차 rnn model과 2차 lightgbm model이 다 생성되고, MinMax 및 정규화 모델까지 저장됩니다. )
-2. predict.py를 실행합니다. (result폴더에 prediction.csv가 생성됩니다! )
+0. (preprocess.py) 를 실행하여 raw_data를 나중에 사용할 Input으로 가공해줍니다. (해당 py의 실행으로 feature 추가 및 2020-07-21 ~ 2020-09-27의 크롤링 데이터까지 더해줍니다. - 이미 해놨습니다. )
+- Run (preprocess.py) and preprocess the raw_data to Input data for later use. (The py adds the features and the crawled data from 2020-07-21 ~ 2020-09-27)
+
+1. train.py를 실행합니다.(1차 rnn model과 2차 lightgbm model이 다 생성되고, MinMax 및 정규화 모델까지 저장됩니다.)
+- Run train.py. (It will form the rnn model for the 1st phase and the ligthgbm model for the 2nd phase. It will save the MinMax and scaling model as well.)
+
+2. predict.py를 실행합니다. (result폴더에 prediction.csv가 생성됩니다!)
+- Run predict.py (It will create prediction.csv in the result folder)
+
 3. 예측을 5회 반복하고 얻은 값들의 mean을 예측값으로 활용했습니다.
+- The final predcition values are the mean of 5 different prediction runs.
 
 
 
 ** 가상환경설치 한 뒤, requirements.txt에 있는 pip들을 설치해야 합니다. (pip install -r requirements.txt를 치시면 됩니다!)
+** After creating a Virtual Environment, install the pips in requirements.txt. (type 'pip install -r requirements.txt'!)
 
   #### ※ 혹시라도 가상환경(Virtual Environment) 생성을 모른다면? (How to set up a Virtual Environment)
 
