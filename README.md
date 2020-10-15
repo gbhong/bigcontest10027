@@ -64,19 +64,19 @@
   ```bash
  #(리눅스 기준) (For Linux)
  # 1 코드를 실행 할 디렉토리에 들어가서 venv라는 이름의 가상환경을 생성한다.
-   - Go to the directory where you will run the codes and make a Virtual Enviroment withe the name venv.
+ # Go to the directory where you will run the codes and make a Virtual Enviroment withe the name venv.
   python3 -m venv venv
 
   # 2 가상환경을 실행시켜준다. (디렉토리에 들어갔다는 가정)
-   - Run the Virtual Environment 
+  # Run the Virtual Environment 
   source bin/activate
 
   # 3 가상환경 실행 후, pip를 설치해준다.
-   - After running the Virtual Environment, install the pips.
+  # After running the Virtual Environment, install the pips.
   pip3 -r install requirements.txt
 
   # ** 가상환경을 끄는 방법도 있다.
-   - How to deactivate the Virtual Environment
+  # ** How to deactivate the Virtual Environment
   source deactivate
 
   ```
@@ -84,6 +84,8 @@
 
 
 ** 7월 19일 이후에 트레이드 한 선수 혹은 이후에 팀에 입단 한 외국인용병에 대한 인적사항은 따로 기입해줬습니다. 
+
+** The Korean players who were traded after July 19th and the foreign players who joined the team after July 19th were registered separately.
 
 2020   99999  팔카   SS
 2020   99998  러셀   WO
@@ -98,4 +100,4 @@
 
 
 
-Copyright by 김진영, 변영목, 이경환, 홍기봉
+Copyright by 김진영(Jin Young Kim), 변영목(Young Mok Byon), 이경환(Kyung Hwan Lee), 홍기봉(Gi Bong Hong)
