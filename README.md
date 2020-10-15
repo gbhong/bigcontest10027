@@ -87,16 +87,16 @@
 
 ** The Korean players who were traded after July 19th and the foreign players who joined the team after July 19th were registered separately.
 
-2020   99999  팔카   SS
-2020   99998  러셀   WO
-2020   99997  화이트   SK
+2020   99999  팔카   SS   
+2020   99998  러셀   WO      
+2020   99997  화이트   SK   
 
-2020   63950  장현식   HT
-2020   64984  김태진   HT
-2020   65643  문경찬   NC
-2020   65639  박정수   NC
-2020   63634  이홍구   KT
-2020   60558  오태곤   SK
+2020   63950  장현식   HT   
+2020   64984  김태진   HT   
+2020   65643  문경찬   NC   
+2020   65639  박정수   NC   
+2020   63634  이홍구   KT   
+2020   60558  오태곤   SK   
 
 
 
