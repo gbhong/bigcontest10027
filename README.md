@@ -56,7 +56,7 @@
 
 
 
-** 가상환경설치 한 뒤, requirements.txt에 있는 pip들을 설치해야 합니다. (pip install -r requirements.txt를 치시면 됩니다!)
+** 가상환경설치 한 뒤, requirements.txt에 있는 pip들을 설치해야 합니다. (pip install -r requirements.txt를 치시면 됩니다!)   
 ** After creating a Virtual Environment, install the pips in requirements.txt. (type 'pip install -r requirements.txt'!)
 
   #### ※ 혹시라도 가상환경(Virtual Environment) 생성을 모른다면? (How to set up a Virtual Environment)
