@@ -1,5 +1,7 @@
 # Big Contest 퓨쳐스리그 (Future's Leage) -Team 10027- 
 
+##### by 이경환, 김진영, 변영목, 홍기봉
+
 
 
 ## 분석 환경 및 사용 Packages (Analysis Environment and Packages Used)
@@ -80,6 +82,14 @@
   source deactivate
 
   ```
+
+
+
+<img src="./image/전처리.PNG">
+
+<img src="./image/모델1.PNG">
+
+<img src="./image/모델2.PNG">
 
 
 
